@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import FormMovie from './component/FormMovie';
+// import FormEmployee from './component/FormEmployee';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <FormMovie />
+      {/* <FormEmployee /> */}
     </div>
   );
 }
